@@ -1,14 +1,14 @@
 # Video Watermark Removal Skill
-
-A [Codex](https://github.com/openai/codex) skill that **detects and removes static
-watermarks** — corner logos, channel IDs, text overlays — from video files, and
-rebuilds a clean copy with FFmpeg.
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-412991)](https://github.com/openai/codex)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FFmpeg](https://img.shields.io/badge/FFmpeg-required-007808?logo=ffmpeg&logoColor=white)](https://ffmpeg.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-any-013243?logo=numpy&logoColor=white)](https://numpy.org/)
 [![Pillow](https://img.shields.io/badge/Pillow-any-00A67E)](https://python-pillow.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://github.com/xingguangYan/codex-skill-video-watermark/blob/main/LICENSE)
+A [Codex](https://github.com/openai/codex) skill that **detects and removes static
+watermarks** — corner logos, channel IDs, text overlays — from video files, and
+rebuilds a clean copy with FFmpeg.
+
 Point it at a video and it will:
 
 1. **Locate the watermark automatically** — no manual pixel counting, no guessing
